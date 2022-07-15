@@ -15,6 +15,7 @@ module.exports = {
       publicPath: '/dist/',
 			directory: path.join(__dirname, 'index.html')
 		},
+		historyApiFallback: true,
 		compress: true,
 		port: 8080
 	},
