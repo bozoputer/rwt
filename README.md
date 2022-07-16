@@ -46,16 +46,17 @@ To get a local copy up and running follow these simple example steps:
    ```sh
    git clone https://github.com/bozoputer/bozoputer/rwt.git
    ```
-2. Search for all instances of **PROJECT-NAME** in `package.json` and update accordingly
-3. Update the URL of the remote repo
+2. Search for all instances of **rwt** in `package.json` and update accordingly
+3. Erase the contents of this `README.md` file and replace with details of and information about your project
+4. Update the URL of the remote repo
 ```sh
 git remote set-url origin <remote-name> <remote-url>
 ```
-4. Install NPM packages
+5. Install packages
    ```sh
    npm install
    ```
-5. Run the app
+6. Run the app
    ```sh
    npm start
    ```
